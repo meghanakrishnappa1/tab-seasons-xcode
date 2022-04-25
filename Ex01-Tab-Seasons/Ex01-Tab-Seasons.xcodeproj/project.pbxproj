@@ -1,0 +1,395 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED0C7B252813374800A710DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0C7B242813374800A710DA /* AppDelegate.swift */; };
+		ED0C7B272813374800A710DA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0C7B262813374800A710DA /* SceneDelegate.swift */; };
+		ED0C7B292813374800A710DA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0C7B282813374800A710DA /* ViewController.swift */; };
+		ED0C7B2C2813374800A710DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED0C7B2A2813374800A710DA /* Main.storyboard */; };
+		ED0C7B2E2813374A00A710DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED0C7B2D2813374A00A710DA /* Assets.xcassets */; };
+		ED0C7B312813374A00A710DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED0C7B2F2813374A00A710DA /* LaunchScreen.storyboard */; };
+		ED0C7B392813376400A710DA /* Winter.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ED0C7B382813376400A710DA /* Winter.jpg */; };
+		ED0C7B412813377500A710DA /* 198-card-spades.png in Resources */ = {isa = PBXBuildFile; fileRef = ED0C7B3A2813377500A710DA /* 198-card-spades.png */; };
+		ED0C7B422813377500A710DA /* 199-card-hearts.png in Resources */ = {isa = PBXBuildFile; fileRef = ED0C7B3B2813377500A710DA /* 199-card-hearts.png */; };
+		ED0C7B432813377500A710DA /* 197-card-diamonds.png in Resources */ = {isa = PBXBuildFile; fileRef = ED0C7B3C2813377500A710DA /* 197-card-diamonds.png */; };
+		ED0C7B442813377500A710DA /* Spring.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ED0C7B3D2813377500A710DA /* Spring.jpg */; };
+		ED0C7B452813377500A710DA /* 200-card-clubs.png in Resources */ = {isa = PBXBuildFile; fileRef = ED0C7B3E2813377500A710DA /* 200-card-clubs.png */; };
+		ED0C7B462813377500A710DA /* Fall.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ED0C7B3F2813377500A710DA /* Fall.jpg */; };
+		ED0C7B472813377500A710DA /* Summer.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ED0C7B402813377500A710DA /* Summer.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		ED0C7B212813374800A710DA /* Ex01-Tab-Seasons.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ex01-Tab-Seasons.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED0C7B242813374800A710DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ED0C7B262813374800A710DA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		ED0C7B282813374800A710DA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ED0C7B2B2813374800A710DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ED0C7B2D2813374A00A710DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ED0C7B302813374A00A710DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ED0C7B322813374A00A710DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED0C7B382813376400A710DA /* Winter.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Winter.jpg; path = ../../../../Downloads/icons/Winter.jpg; sourceTree = "<group>"; };
+		ED0C7B3A2813377500A710DA /* 198-card-spades.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "198-card-spades.png"; path = "../../../../Downloads/icons/198-card-spades.png"; sourceTree = "<group>"; };
+		ED0C7B3B2813377500A710DA /* 199-card-hearts.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "199-card-hearts.png"; path = "../../../../Downloads/icons/199-card-hearts.png"; sourceTree = "<group>"; };
+		ED0C7B3C2813377500A710DA /* 197-card-diamonds.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "197-card-diamonds.png"; path = "../../../../Downloads/icons/197-card-diamonds.png"; sourceTree = "<group>"; };
+		ED0C7B3D2813377500A710DA /* Spring.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Spring.jpg; path = ../../../../Downloads/icons/Spring.jpg; sourceTree = "<group>"; };
+		ED0C7B3E2813377500A710DA /* 200-card-clubs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "200-card-clubs.png"; path = "../../../../Downloads/icons/200-card-clubs.png"; sourceTree = "<group>"; };
+		ED0C7B3F2813377500A710DA /* Fall.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Fall.jpg; path = ../../../../Downloads/icons/Fall.jpg; sourceTree = "<group>"; };
+		ED0C7B402813377500A710DA /* Summer.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Summer.jpg; path = ../../../../Downloads/icons/Summer.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED0C7B1E2813374800A710DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED0C7B182813374700A710DA = {
+			isa = PBXGroup;
+			children = (
+				ED0C7B232813374800A710DA /* Ex01-Tab-Seasons */,
+				ED0C7B222813374800A710DA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ED0C7B222813374800A710DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED0C7B212813374800A710DA /* Ex01-Tab-Seasons.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED0C7B232813374800A710DA /* Ex01-Tab-Seasons */ = {
+			isa = PBXGroup;
+			children = (
+				ED0C7B3C2813377500A710DA /* 197-card-diamonds.png */,
+				ED0C7B3A2813377500A710DA /* 198-card-spades.png */,
+				ED0C7B3B2813377500A710DA /* 199-card-hearts.png */,
+				ED0C7B3E2813377500A710DA /* 200-card-clubs.png */,
+				ED0C7B382813376400A710DA /* Winter.jpg */,
+				ED0C7B3F2813377500A710DA /* Fall.jpg */,
+				ED0C7B3D2813377500A710DA /* Spring.jpg */,
+				ED0C7B402813377500A710DA /* Summer.jpg */,
+				ED0C7B242813374800A710DA /* AppDelegate.swift */,
+				ED0C7B262813374800A710DA /* SceneDelegate.swift */,
+				ED0C7B282813374800A710DA /* ViewController.swift */,
+				ED0C7B2A2813374800A710DA /* Main.storyboard */,
+				ED0C7B2D2813374A00A710DA /* Assets.xcassets */,
+				ED0C7B2F2813374A00A710DA /* LaunchScreen.storyboard */,
+				ED0C7B322813374A00A710DA /* Info.plist */,
+			);
+			path = "Ex01-Tab-Seasons";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED0C7B202813374800A710DA /* Ex01-Tab-Seasons */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED0C7B352813374A00A710DA /* Build configuration list for PBXNativeTarget "Ex01-Tab-Seasons" */;
+			buildPhases = (
+				ED0C7B1D2813374800A710DA /* Sources */,
+				ED0C7B1E2813374800A710DA /* Frameworks */,
+				ED0C7B1F2813374800A710DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Ex01-Tab-Seasons";
+			productName = "Ex01-Tab-Seasons";
+			productReference = ED0C7B212813374800A710DA /* Ex01-Tab-Seasons.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED0C7B192813374700A710DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					ED0C7B202813374800A710DA = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = ED0C7B1C2813374800A710DA /* Build configuration list for PBXProject "Ex01-Tab-Seasons" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED0C7B182813374700A710DA;
+			productRefGroup = ED0C7B222813374800A710DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED0C7B202813374800A710DA /* Ex01-Tab-Seasons */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED0C7B1F2813374800A710DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED0C7B312813374A00A710DA /* LaunchScreen.storyboard in Resources */,
+				ED0C7B432813377500A710DA /* 197-card-diamonds.png in Resources */,
+				ED0C7B462813377500A710DA /* Fall.jpg in Resources */,
+				ED0C7B2E2813374A00A710DA /* Assets.xcassets in Resources */,
+				ED0C7B422813377500A710DA /* 199-card-hearts.png in Resources */,
+				ED0C7B442813377500A710DA /* Spring.jpg in Resources */,
+				ED0C7B392813376400A710DA /* Winter.jpg in Resources */,
+				ED0C7B472813377500A710DA /* Summer.jpg in Resources */,
+				ED0C7B452813377500A710DA /* 200-card-clubs.png in Resources */,
+				ED0C7B412813377500A710DA /* 198-card-spades.png in Resources */,
+				ED0C7B2C2813374800A710DA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED0C7B1D2813374800A710DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED0C7B292813374800A710DA /* ViewController.swift in Sources */,
+				ED0C7B252813374800A710DA /* AppDelegate.swift in Sources */,
+				ED0C7B272813374800A710DA /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ED0C7B2A2813374800A710DA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED0C7B2B2813374800A710DA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ED0C7B2F2813374A00A710DA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED0C7B302813374A00A710DA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ED0C7B332813374A00A710DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ED0C7B342813374A00A710DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED0C7B362813374A00A710DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Ex01-Tab-Seasons/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "emich.Ex01-Tab-Seasons";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ED0C7B372813374A00A710DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Ex01-Tab-Seasons/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "emich.Ex01-Tab-Seasons";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED0C7B1C2813374800A710DA /* Build configuration list for PBXProject "Ex01-Tab-Seasons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED0C7B332813374A00A710DA /* Debug */,
+				ED0C7B342813374A00A710DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED0C7B352813374A00A710DA /* Build configuration list for PBXNativeTarget "Ex01-Tab-Seasons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED0C7B362813374A00A710DA /* Debug */,
+				ED0C7B372813374A00A710DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED0C7B192813374700A710DA /* Project object */;
+}
